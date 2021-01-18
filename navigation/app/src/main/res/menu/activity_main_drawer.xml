@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/InventoryStatus"
+            android:title="InventoryStatus"
+
+            />
+        <item
+            android:id="@+id/Tasks"
+            android:title="Tasks"/>
+        <item
+            android:id="@+id/Reports"
+            android:title="Reports" />
+    </group>
+
+    <include>
+
+    </include>
+
+
+</menu>
